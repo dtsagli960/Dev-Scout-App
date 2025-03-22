@@ -1,0 +1,83 @@
+.saved-candidates-container {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.candidates-table th,
+.candidates-table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+.candidates-table th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.candidates-table td {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ddd;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+}
+
+.email-link {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.remove-btn {
+  background-color: red;
+  color: rgb(31, 25, 25);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 3rem;
+  border-radius: 50%;
+}
+
+.remove-btn:hover {
+  background-color: darkred;
+}
+
+.search-input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #444;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.candidates-table th {
+  cursor: pointer;
+  background-color: #2a2a2a;
+  transition: background 0.3s ease;
+}
+
+.candidates-table th:hover {
+  background-color: #444;
+}
